@@ -4141,6 +4141,10 @@ IL_0025:
 		L_14 = ArrowLauncher_RotateWithVelocity_mE7F5FF2DDE1B1E569247B6916D97D16C778F6229(__this, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_15;
 		L_15 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_14, NULL);
+		//<source_info:C:/Users/jackm/Unity Projects/Final Project V3/Assets/Scripts/ArrowLauncher.cs:75>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_16 = __this->____trailSystem;
+		NullCheck(L_16);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_16, (bool)1, NULL);
 		//<source_info:C:/Users/jackm/Unity Projects/Final Project V3/Assets/Scripts/ArrowLauncher.cs:76>
 		return;
 	}
@@ -5032,7 +5036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtPlayer_Start_m0798FA323E6CAEB11E3F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtPlayer_Update_m9EE58C1B9B2C9BF276C8C9CAECFDF7DA19C34BF5 (LookAtPlayer_tBA315B22FE90398AE3DBC3CCA96D4F1F73B9C0B3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/jackm/Unity Projects/Final Project V3/Assets/Scripts/LookAtPlayer.cs:16>
+		//<source_info:C:/Users/jackm/Unity Projects/Final Project V3/Assets/Scripts/LookAtPlayer.cs:17>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
 		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
@@ -5053,7 +5057,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LookAtPlayer_Update_m9EE58C1B9B2C9BF276C
 		L_7 = Quaternion_LookRotation_mDB2CCA75B8E1AB98104F2A6E1A1EA57D0D1298D7(L_6, NULL);
 		NullCheck(L_0);
 		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_0, L_7, NULL);
-		//<source_info:C:/Users/jackm/Unity Projects/Final Project V3/Assets/Scripts/LookAtPlayer.cs:17>
+		//<source_info:C:/Users/jackm/Unity Projects/Final Project V3/Assets/Scripts/LookAtPlayer.cs:18>
 		return;
 	}
 }

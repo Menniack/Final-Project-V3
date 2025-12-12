@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   _speed: 10
-  _trailSystem: {fileID: 0}
+  _trailSystem: {fileID: 7251879486380165639, guid: c2f6a8962aac3814aa56cb9647c93470, type: 3}
 --- !u!65 &2018904446324764396
 BoxCollider:
   m_ObjectHideFlags: 0

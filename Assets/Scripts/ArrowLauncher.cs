@@ -72,7 +72,7 @@ public class ArrowLauncher : MonoBehaviour
 
         StartCoroutine(RotateWithVelocity());
 
-        //_trailSystem.SetActive(true);
+        _trailSystem.SetActive(true);
     }
 
     public void StopFlight()
